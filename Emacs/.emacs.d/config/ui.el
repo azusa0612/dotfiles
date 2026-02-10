@@ -1,0 +1,9 @@
+(provide 'ui)
+
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
+(global-display-line-numbers-mode 1)
+(setq inhibit-startup-screen t) 
+(setq-default text-scale-mode-amount 6)
+(text-scale-set 3)

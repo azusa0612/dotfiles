@@ -1,0 +1,54 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/Azusa/.emacs.d/" . "config/")
+ ("/home/Azusa/Project/C/Morden_C/" . "modernC-code/")
+ ("/home/Azusa/Project/C/" . "Morden_C/")
+ ("/home/" . "Azusa/")
+ ("/" . "home/")
+ ("/home/Azusa/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/Azusa/.emacs.d/config/"
+ "/home/Azusa/.emacs.d/"
+ "/home/Azusa/"
+ "/home/Azusa/Project/C/Morden_C/modernC-code/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "editing.el"
+ "init.el"
+ "customs.el"
+ ".emacs"
+ "fibonacciCache.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/Azusa/.emacs.d/config/" (27019 33886 704814 66000) "customs.el" "customs.el~" "#customs.el#" "editing.el" "editing.el~" "ui.el" "ui.el~" ".ui.el.un~" "languages/" "../" "./")
+
+ ("/home/Azusa/.emacs.d/" (27019 33952 387386 629000) "ido.last" "ido.last~" "init.el" "init.el~" "config/" "eln-cache/" "elpa/" "tutorial/" "auto-save-list/" "../" "./")
+
+ ("/home/Azusa/" (27019 28130 377728 718000) ".viminfo" ".emacs~" ".emacs.custom.el~" "#.emacs.custom#" ".ghc/" ".profile" ".zshrc" ".stack/" ".cabal/" ".ghcup/" "haskell-purge-backup-20260210-015030/" ".zprofile" ".bash_profile" ".bashrc" "haskell-purge-backup-20260210-015020/" "haskell-purge-backup-20260210-014927/" "haskell-purge-backup-20260210-014900/" "purge-haskell.sh" ".gitconfig" ".toolbox-container" ".hcwd" "TrueProject/" "Vector-field.hs" ".bash_history" "Zotero/" ".zotero/" "Project/" "NetEaseList.json" "vol_bug.txt" "bf_after.txt" "media_session_after.txt" "audio_after.txt" "vol.txt" ".zsh_history" "NetEaseAPI/" "pnpm-lock.yaml" "videos.txt" "hecto-tutorial/" "hecto-offline/" "RustEdit/" "BuildOsUseRust/" ".emacs.d/" ".zcompdump-fedora-5.9.zwc" ".zcompdump-fedora-5.9" "package-lock.json" "package.json" "node_modules/" "#mredauto#1#" "zk/" "Notes/" "go/" ".zcompdump-bogon-5.9.zwc" ".zcompdump-bogon-5.9" ".nix-profile" "mdbook/" ".Xauthority" "V" ".w3m/" ".links/" ".gtkrc-2.0" ".zshrc-backup" ".oh-my-zsh/" ".themes/" ".icons/" "Fedora-Hyprland/" "flathub.gpg" "Haskell/" "codecrafters-shell-rust/" ".android/" "osdlyrics/" ".vimrc" "TEST" "file.txt" "niri-setup/" ".vscode-server/" "hello/" "setup-rust-ide.sh" ".rustup/" ".cargo/" "Apps/" ".Rhistory" ".RData" ".npmrc" ".npm/" ".python_history" ".gnupg/" ".nvidia-settings-rc" ".codex/" ".git-credentials" ".gitignore" ".ssh/" ".nv/" ".elan/" ".vscode-R/" ".dotnet/" "bin/" ".Rprofile" "R/" ".vscode/" ".pki/" ".var/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".cache/" ".local/" ".bash_logout" ".mozilla/" "../" "./")
+
+ ("/home/Azusa/Project/C/Morden_C/modernC-code/" (27008 8543 623572 215000) "yday.c" "volatile_atomic.c" "verbose.s" "va_arg.c" "timespec.c" "tgstring_test.c" "tgstring.h" "test_circular.c" "test-reorder.c" "test-features.c" "terran.c" "termin.h" "termin.c" "tendots.c" "swap.c" "strtoul.c" "strcpy.c" "stats.h" "stats.c" "sighandler_test.c" "sighandler.h" "sighandler.c" "shadow.c" "sequence_point.c" "reorder.h" "rationals.h" "rationals.c" "precision.c" "numberline.c" "mbstrings.h" "mbstrings.c" "mbstrings-main.c" "macro_trace.h" "macro_trace.c" "locale.c" "literals.c" "lifetime.c" "life.h" "life.c" "heron_k.h" "heron_k.c" "heron.c" "heron-expanded.c" "getting-started.s" "getting-started.out" "getting-started.c" "generic.h" "generic.c" "fp_except.c" "fibonacciRet.c" "fibonacciCache.c" "fibonacci6.c" "fibonacci5.c" "fibonacci4.c" "fibonacci3.c" "fibonacci2.c" "fibonacci.c" "extern.c" "euclid.h" "euclid.c" "esc.h" "esc.c" "enum.c" "endianness.c" "embed.c" "decimal-binary.c" "crash.h" "crash.c" "constexpr.c" "circular.h" "circular.c" "cat.c" "c23-fallback.h" "build-musl" "bitint.c" "basic_blocks2.c" "basic_blocks.c" "bad.c" "array_or_struct.c" "anonymous_function.c" "analyze-utf8.c" "a.out" "Unicode-test.c" "README" "Makefile" "LICENSE" "B9.c" "B9-detach.c" "AUTHORS" "../" "./")
+
+ ("/home/Azusa/Project/C/Morden_C/" (27008 8543 620226 568000) "modernC-code/" "../" "./")
+
+ ("/home/Azusa/Project/C/" (27008 8543 623572 215000) "test.c" "a.out" "Morden_C/" "test_for_sicp_average_dmp.c" "../" "./")
+
+ ("/home/Azusa/Project/" (27017 24883 960184 585000) "Python/" "LaTeX/" "Haskell/" "sicp/" "Rust/" "README.md" "C/" ".git/" "../" "./")
+
+ ("/afs/" (26761 24704 0 0) "../" "./")
+
+ ("/home/" (26994 10972 603773 457000) "linuxbrew/" "Azusa/" "../" "./")
+
+ ("/home/Azusa/Apps/" (26959 11819 977032 637000) "OpenUtau/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

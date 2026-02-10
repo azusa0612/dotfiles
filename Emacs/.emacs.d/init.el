@@ -1,0 +1,16 @@
+(add-to-list 'load-path (expand-file-name "config" user-emacs-directory))
+(add-to-list 'load-path (expand-file-name "config/languages" user-emacs-directory))
+(add-to-list 'default-frame-alist `(font . "JetBrainsMono Nerd Font-38"))
+
+;;set font size
+;;(when (display-graphic-p)
+;;  (set-face-attribute 'default nil :height 380))
+
+;;set custom-file to avoid Emacs change this file automatically
+(setq custom-file "~/.emacs.d/config/customs.el")
+(load custom-file)
+
+;; require the sub config files
+(require 'ui)
+(require 'editing)
+(require 'haskell)
